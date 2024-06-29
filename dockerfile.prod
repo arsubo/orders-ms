@@ -15,6 +15,9 @@ FROM node:21-alpine3.19 AS builder
 ARG ORDERS_DATABASE_URL
 ENV DATABASE_URL=$ORDERS_DATABASE_URL
 
+#Imprimir variable de entorno
+RUN echo "database_url ::: $ORDERS_DATABASE_URL";
+
 WORKDIR /usr/src/app
 
 # Copiar archivos de configuración de dependencias
