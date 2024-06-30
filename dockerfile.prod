@@ -17,6 +17,7 @@ ENV DATABASE_URL=$ORDERS_DATABASE_URL
 
 #Imprimir variable de entorno
 #RUN echo "database_url ::: $ORDERS_DATABASE_URL";
+#RUN echo "database_url ::: $ORDERS_DATABASE_URL";
 #Nueva linea
 
 WORKDIR /usr/src/app
